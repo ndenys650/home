@@ -1,0 +1,32 @@
+
+#main {font-family: Helvetica;
+font-size: 70px;
+font-weight: bold;
+color: white;}
+
+#body {background-color: white;
+text-align: center;}
+
+#back {background-color: black;}
+
+#toplinks {font-family: Helvetica;
+font-size: 18px;
+color: white;
+text-decoration: underline;}
+
+#backgroundpic {background-image: url(https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/12256832_930080583706207_1162487888_n.jpg);
+background-size: cover;
+background-position: center;}
+
+#designed {font-family: Helvetica;
+font-size: 23px;
+color: white;
+font-weight: bold;}
+
+#footer {background-color: dimgray;
+text-align: left;
+font-size: 11px;
+color: white;}
+
+#nav {font-size: 18px;
+color: white;}
