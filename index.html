@@ -1,56 +1,163 @@
 <!DOCTYPE html>
-<html id="back">
-  <head>
-    <title>thisdenys</title>
-      <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
-  </head>
-  <body id="body">
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>
+  /* Universal Styles */
+
+  body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  }
+
+  h2 {
+  font-size: 40px;
+  }
+
+  /* Bootstrap Overrides */
+
+  .jumbotron {
+  background-image: url("https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/12256832_930080583706207_1162487888_n.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: black;
+  font-family: cinzel;
+  }
+
+  .navbar {
+
+  }
+
+  #showcase {
+  margin-top: 50px;
+  }
+
+  /* About Section - Grid System */
+
+  .left-col {
+  font-size: 52px;
+  }
+
+  .right-col {
+  font-size: 24px;
+  }
+
+  /* Contact - Grid System */
+
+  #contact p {
+  font-size: 24px;
+  }
+
+  </style>
+
+<!-- Font links and Scripts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,700" rel="stylesheet" type="text/css">
+  <title>thisdenys</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://external-production.codecademy.com/assets/jquery.expect.js?v1"></script>
+  <script src="https://www.codecademy.com/assets/relay.js"></script>
+  <script src="https://www.codecademy.com/assets/web_libs.js?v5"></script>
+  <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:900|Josefin+Slab:700" rel="stylesheet">
+</head>
+
+<body>
+
+<!--Header / Nav Bar Section -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Th.is.Denys</a>
+    </div>
+    <ul class="nav navbar-nav collapse navbar-collapse">
+      <li><a href="ndenys650.github.io/aviation">Aviation</a></li>
+      <li><a href="ndenys650.github.io/creativity">Projects</a></li>
+      <li><a href="ndenys650.github.io/aboutme">About Me</a></li>
+      <li><a href="ndenys650.github.io/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Jumbotron Section -->
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid">
+      <h1>Nathanael E. Denys</h1>
+      <p>Aviation and Technology Enthusiast</p>
+      <a href="#gallery" class="see-more">See More</a>
+    </div>
+  </div>
+
+<!--Body Section-->
+
+  <div id="about" class="container">
+    <div class="row">
+      <h2 class="col-xs-12">About Me</h2>
+      <div class="col-xs-12 col-md-6">
+        <p class="left-col">I'M SELF TAUGHT WITH A PASSION FOR AVIATION AND TECHNOLOGY</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <p class="right-col">I was born in Stanford, California and grew up right in the Bay Area. With a team, I helped create a Reusable Bag business my freshman year of High School. I then graduated from UC Irvine with a degree in Business Economics. Now I focus my attention on the Aviation Industry and its potential for growth within this new era of technology.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h2 id="gallery" class="col-xs-12">Gallery</h2>
+    <div class="row">
+      <img src="./resources/images/carlocks.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/bigbasin.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/cloudysunset.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/insidecar-bonanza.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/incense.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/downtownSF.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/insidecruise.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/newgearday.jpg" class="col-xs-12 col-md-6 col-lg-4">
+      <img src="./resources/images/pizza.jpg" class="col-xs-12 col-md-6 col-lg-4">
+    </div>
+  </div>
 
     <div id="backgroundpic">
-      <h1 id="main">Th.Is.Denys.</h1>
-      <p>
-        <a id="nav" href="#">Home</a>
-        <a id="nav" href="#aviation">Aviation</a>
-        <a id="nav" href="#aboutme">About Me</a>
-        <a id="nav" href="#creativity">Creativity</a>
-        <a id="nav" href="#contact">Contact</a>
-      </p>
+      <h2 id="designed">DESIGNED IN BELMONT, CALIFORNIA</h2>
     </div>
 
-    <div>
-      <h1>Breakdown</h1>
-      <h2>Where I'm At</h2>
-      <p>We focus on the most important details</p>
-      <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/understand.svg"/>
-      <h2>Vision</h2>
-      <p>We study our projects inside and out.</p>
-      <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/execute.svg"/>
-      <h2>Execute</h2>
-      <p>We put everything we have into our work.</p>
-    </div>
-    <div id="backgroundpic">
-      <h2 id="designed">Designed in California</h2>
-    </div>
+<!--Contact Section -->
 
-    <div>
+<div id="contact" class="container-fluid">
+  <div class="row">
+    <h2 class="col-xs-12">Contact Me</h2>
+  <div class="col-xs-5"></div>
+    <a href="#portfolio" class="col-xs-2">Contact</a>
+  </div>
+</div>
+
+    <div id="portfolio">
       <h2>Portfolio</h2>
-      <p>Coming Soon</p>
-      <h2>Team</h2>
-      <p>We're Hiring!</p>
-      <h2>Contact</h2>
+      <p>Check out the About Me page</p>
+      <h2>Contact Me</h2>
       <p>Phone: (650) 922-0740</p>
       <p>E-mail: nate_denys@yahoo.com</p>
       <p>Twitter: @denysfoodisgood</p>
     </div>
 
-    <div id="footer">
-      <p> &copy Denys 2017
-        <a id="nav" href="#">Home<a>
-        <a id="nav" href="#about">About</a>
-        <a id="nav" href="#work">Work</a>
-        <a id="nav" href="#team">Team</a>
-        <a id="nav" href="#contact">Contact</a>
-      </p>
+    <div id="social" class="container-fluid">
+      <div class="row">
+        <div class="col-xs-4">
+          <a href="https://www.facebook.com/nathanael.denys.7"><img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-7/img-facebook.png"></a>
+        </div>
+        <div class="col-xs-4">
+          <a href="https://www.instagram.com/denys65oh/"><img src=" &#10;https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-7/img-instagram.png"></a>
+        </div>
+        <div class="col-xs-4">
+          <a href="http://www.medium.com"><img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-7/img-medium.png"></a>
+        </div>
+      </div>
     </div>
+
   </body>
 </html>
